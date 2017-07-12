@@ -7,3 +7,4 @@ import { linkTo } from '@storybook/addon-links';
 import '../components/Header/Header.stories';
 import '../components/Logo/Logo.stories';
 import '../components/SearchBox/SearchBox.stories';
+import '../components/Button/Button.stories';

@@ -4,6 +4,7 @@ import './Hero.css';
 
 import Headline from '../Headline';
 import Subheadline from '../Subheadline';
+import Button from '../Button';
 
 const Hero = () => (
   <div className="Hero">
@@ -13,6 +14,7 @@ const Hero = () => (
         Beautiful, free photos.<br />Gifted by the world’s most generous community of photographers. 🎁
       </Subheadline>
     </div>
+    <Button>Submit a photo</Button>
   </div>
 )
 
