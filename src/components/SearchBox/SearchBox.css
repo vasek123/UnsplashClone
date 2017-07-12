@@ -1,0 +1,28 @@
+.SearchBox {
+  width: 100%;
+  background-color: #f1f1f1;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 0px 20px;
+  transition: all .2s ease-in-out;
+  font-size: 14px;
+}
+
+.SearchBox:hover {
+  border-color: #d1d1d1;
+}
+
+.SearchBox.active {
+  background-color: #fff;
+  border-color: #d1d1d1;
+}
+
+.SearchBox > input[type="text"] {
+  width: calc(100% - 30px);
+  height: 36px;
+  margin-left: 6px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}

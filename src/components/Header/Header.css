@@ -1,0 +1,11 @@
+header.Header > nav {
+  width: calc(100% - 40px);
+  height: 62px;
+  position: fixed;
+  display: flex;
+  z-index: 10;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fff;
+}

@@ -1,0 +1,10 @@
+.Logo {
+  width: 36px;
+  height: 34px;
+  padding: 0px 6px;
+}
+
+.Logo > svg {
+  width: 100%;
+  height: 100%;
+}

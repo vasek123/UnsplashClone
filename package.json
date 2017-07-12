@@ -1,0 +1,25 @@
+{
+  "name": "UnsplashClone",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@storybook/react": "^3.1.8",
+    "enzyme": "^2.9.1",
+    "react-scripts": "1.0.10"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  }
+}
